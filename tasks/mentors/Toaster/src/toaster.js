@@ -20,6 +20,10 @@
 и выводить достоверные логи */
 import { changeLogs, uiId, changeImage, text, changeStyle } from "./ui.js";
 
+/**
+ * @class Toaster
+ * 
+*/
 export class Toaster {
 	constructor() {
 		this.power = 0; // start power
