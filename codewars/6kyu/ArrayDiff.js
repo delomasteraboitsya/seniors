@@ -3,7 +3,3 @@ function arrayDiff(a, b) {
   const set = new Set(b);
   return a.filter((item) => !set.has(item));
 }
-
-class User {
-  constructor() {}
-}
